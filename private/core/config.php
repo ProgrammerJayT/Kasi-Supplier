@@ -1,5 +1,5 @@
 <?php
-const DBNAME = '';
+const DBNAME = 'kasi_supplier';
 const DBHOST = 'localhost';
 const DBUSER = 'root';
 const DBPASS = '';
