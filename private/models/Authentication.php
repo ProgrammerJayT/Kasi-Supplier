@@ -6,9 +6,8 @@ class Authentication {
     public function __construct(){
     }
 
-    public static function authenticate($row, $toast){
+    public static function authenticate($row){
         $_SESSION['USER'] = $row;
-        $_SESSION['Toast'] = $toast;
     }
 
     public static function logout(){
